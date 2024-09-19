@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Traffic Checker</h1>
+        </header>
+        <main>
+            <section class="search-box">
+                <h2>Check Traffic</h2>
+                <input type="text" id="origin" placeholder="Enter Origin" required>
+                <input type="text" id="destination" placeholder="Enter Destination" required>
+                <button id="checkTrafficBtn">Check Traffic</button>
+            </section>
+            <section>
+                <div id="map"></div>
+            </section>
+        </main>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2Ec-gQZpeEZ6KEYLqCIPfxXKf6i6anOg" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
